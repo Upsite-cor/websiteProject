@@ -1,0 +1,25 @@
+h1.signUpTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: red;
+}
+div.credentials{
+    margin: 0 auto;
+    width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;  
+}
+
+#email{
+    
+}
+
+/* Path: style.css */
