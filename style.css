@@ -1,3 +1,23 @@
+
+@font-face{
+    font-family: 'bebasneue';
+    font-weight: 400;
+    src: url('./assests/fonts/bebasneue-regular-webfont.woff') format(woff);
+    src: url('./assests/fonts/bebasneue-regular-webfont.woff2') format(woff2);
+    src: url('./assests/fonts/BebasNeue-Regular.ttf') format(truetype);
+}
+
+
+@font-face{
+    font-family: 'RobotoCondensed';
+    src:('./assests/fonts/RobotoCondensed-Bold.ttf') format(truetype);
+    src:('./assests/fonts/RobotoCondensed-Bolditalic.ttf') format(truetype);
+    src:('./assests/fonts/RobotoCondensed-Italic.ttf') format(truetype);
+    src:('./assests/fonts/RobotoCondensed-Light.ttf') format(truetype);
+    src:('./assests/fonts/RobotoCondensed-LightItalic.ttf') format(truetype);
+    src:('./assests/fonts/RobotoCondensed-Regular.ttf') format(truetype);
+}
+
 h1.signUpTitle{
     font-size: 30px;
     font-weight: bold;
@@ -5,7 +25,9 @@ h1.signUpTitle{
     text-align: center;
     margin-bottom: 20px;
     background-color: red;
+    font: 'bebasneue';
 }
+
 div.credentials{
     margin: 0 auto;
     width: 40%;
@@ -14,16 +36,41 @@ div.credentials{
     padding: 200px 20px 100px 20px;
     border-radius: 10px;
     border: 1px solid #000000;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: normal;
     color: #000000;  
     position: relative;
     top:250px;
-    
+    font-family: 'bebasneue';
 }
 
-div.email{
-    
+
+
+input{
+    border:none;
+    border-bottom: 4px solid black;
+    outline:none;
+    width: 50%;
+    font-family:"RobotoCondensed";
+    font-size: xx-large;
+    font-weight: 50;
+    position: relative;
 }
+
+
+div.email{
+    position: relative;
+      top: -100px;
+}
+
+
+
+div.username, div.password{
+    position: relative;
+    Bottom: 100px;
+}
+
+
+
 
 /* Path: style.css */
