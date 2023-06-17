@@ -8,17 +8,21 @@ h1.signUpTitle{
 }
 div.credentials{
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
+    length: 200px;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 200px 20px 100px 20px;
     border-radius: 10px;
     border: 1px solid #000000;
     font-size: 20px;
     font-weight: bold;
     color: #000000;  
+    position: relative;
+    top:250px;
+    
 }
 
-#email{
+div.email{
     
 }
 
