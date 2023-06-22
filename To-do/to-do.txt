@@ -1,0 +1,3 @@
+1. Fix the sign-up content.
+2. Make it look nice for example maybe putting the signup title inside the content box
+    will look nicer than putting it outside of the crediential css box.

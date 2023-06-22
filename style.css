@@ -19,6 +19,11 @@
 }
 
 h1.signUpTitle{
+    position: absolute;
+    margin-bottom: 0px;
+    padding: 20px 600px;
+    left: 10.0571%;
+    top:14%;
     font-size: 30px;
     font-weight: bold;
     color: #000000;
@@ -70,7 +75,20 @@ div.username, div.password{
     Bottom: 100px;
 }
 
+div.usernamebox{
+    position: relative;
+    bottom:80px;
+}
 
+div.passwordbox{
+    position: relative;
+    bottom: 40px;
+}
+
+div.emailbox{
+    position: relative;
+    top: 40px;
+}
 
 
 /* Path: style.css */
